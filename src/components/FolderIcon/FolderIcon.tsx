@@ -17,7 +17,7 @@ export function FolderIcon({ fill, size }: FolderIconProps) {
       />
       <path
         d="m37.021 38.213a18 18 0 0 0-18 18v18.23a18 18 0 0 1 18-18h66.252v-0.23047l-18-18z"
-        className="opacity-20"
+        opacity=".15"
       />
     </svg>
   );
