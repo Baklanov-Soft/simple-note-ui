@@ -1,5 +1,8 @@
 name: Security analysis
-on: push
+on:
+  push:
+    branches-ignore:
+      - dependabot/**
 jobs:
   security:
     runs-on: ubuntu-latest
