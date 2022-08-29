@@ -1,15 +1,6 @@
-export type FileIconProps = {
-  /** Base color. */
-  fill: string;
+import type { IconProps } from '../IconProps';
 
-  /** Width and height. */
-  size: string | number;
-
-  /** List of CSS classes. */
-  className?: string;
-};
-
-export function FileIcon({ size, className, fill }: FileIconProps) {
+export function FileIcon({ size, className, fill }: IconProps) {
   return (
     <svg
       viewBox="0 0 225 225"

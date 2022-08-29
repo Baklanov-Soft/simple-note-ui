@@ -10,7 +10,7 @@ export default {
   component: FolderIcon,
   argTypes: {
     fill: {
-      defaultValue: '#74a3cc',
+      defaultValue: '#ffc928',
       control: {
         type: 'color'
       }
